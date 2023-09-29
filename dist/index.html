@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unieventia</title>
+    <link rel="stylesheet" href="../dist/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <script src="../dist/index.ts"></script>
+    <main class="flex flex-col w-full h-screen">
+        <div class="w-full bg-white flex flex-col">
+            <div class="flex flex-row py-4 w-full px-16 shadow-md">
+                <div class="flex flex-row w-full justify-start items-center gap-x-4">
+                    <img src="../assets/logo.png" alt="logo" class="w-14 h-14">
+                    <h1 class="text-black text-xl font-regular font-poppins">UniEventia</h1>
+                </div>
+                <div class="hidden lg:flex flex-row items-center gap-x-4">
+                    <h1 class="text-black text-lg font-light font-poppins underline">Inicio</h1>
+                    <h1 class="text-black text-lg font-light font-poppins">Beneficios</h1>
+                    <h1 class="text-black text-lg font-light font-poppins ml-4">Testimonios</h1>
+                    <h1 class="text-black text-lg font-light font-poppins">Contacto</h1>
+                </div>
+            </div>
+        </div>
+        <section id="hero" class="flex flex-col lg:flex-row w-full h-full items-center">
+            <div class="flex flex-col w-full h-full px-4 lg:px-32 items-center justify-center gap-y-6 mt-8 lg:mt-0">
+                <h1 class="text-black text-3xl lg:text-5xl font-bold font-poppins">Entérate de cualquier evento Universitario!</h1>
+                <h2 class="text-black text-xl font-light font-poppins">UniEventia te permitirá participar y organizar cualquier
+                    evento Universitario</h2>
+                <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-lg self-start shadow-lg shadow-uni-blue/50">¡Asocia
+                    tu cuenta Universitaria!</button>
+            </div>
+            <div class="flex flex-col w-full p-8">
+                <img src="../assets/hero.png" alt="hero" class="w-full h-full">
+            </div>
+        </section>
+        <section id="partners" class="flex flex-col w-full gap-y-5 py-4">
+            <h3 class="text-gray-300 text-xl font-poppins text-center">NUESTROS SOCIOS</h3>
+            <div class="flex flex-row w-full justify-between px-8 lg:px-72">
+                <img src="../assets/partners/upc.svg" alt="partner" class="w-8 h-8 lg:w-16 lg:h-16">
+                <img src="../assets/partners/lima.svg" alt="partner" class="w-8 h-8 lg:w-16 lg:h-16">
+                <img src="../assets/partners/utec.svg" alt="partner" class="w-8 h-8 lg:w-16 lg:h-16">
+                <img src="../assets/partners/utp.svg" alt="partner" class="w-8 h-8 lg:w-16 lg:h-16">
+            </div>
+        </section>
+        <!-- Sección de Beneficios -->
+        <section id="benefits" class="my-8 py-8 lg:py-16 border-t">
+            <div class="container text-center flex flex-col gap-y-6">
+                <h2 class="text-xl text-gray-300 ">BENEFICIOS</h2>
+                <div class="flex flex-col gap-y-8 lg:flex-row w-full justify-center">
+                    <!-- Beneficio 1 -->
+                    <div class="w-full md:w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/benefits/benefit2.svg" alt="benefit" class="w-32 h-32 mx-auto mb-4">
+                            <h3 class="text-xl font-semibold mb-4">Agenda Eventos!</h3>
+                            <p>Descubre y agenda eventos universitarios de tu interés de manera fácil y rápida. Nunca te pierdas de una oportunidad de aprender y socializar.</p>
+                        </div>
+                    </div>
+                    <!-- Beneficio 2 -->
+                    <div class="w-full md:w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/benefits/benefit1.svg" alt="benefit" class="w-32 h-32 mx-auto mb-4">
+                            <h3 class="text-xl font-semibold mb-4">Crea Eventos!</h3>
+                            <p>Organiza y promociona tus propios eventos con herramientas sencillas. Llega a una audiencia más amplia y genera un impacto en tu comunidad universitaria.</p>
+                        </div>
+                    </div>
+                    <!-- Beneficio 3 -->
+                    <div class="w-full md:w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/benefits/benefit3.svg" alt="benefit" class="w-32 h-32 mx-auto mb-4">
+                            <h3 class="text-xl font-semibold mb-4">Coordina con tus amigos!</h3>
+                            <p>Planea y coordina tu participación en eventos con amigos y compañeros. Comparte tu calendario y descubre nuevos intereses juntos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Testimonios -->
+        <section id="testimonials" class="py-8 lg:py-16 bg-gray-100">
+            <div class="container text-center gap-y-6 flex flex-col">
+                <h2 class="text-xl text-black ">TESTIMONIOS</h2>
+                <div class="flex flex-wrap justify-center gap-y-8">
+                    <!-- Testimonio 1 -->
+                    <div class="w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/testimonials/antonio.png" alt="testimonial" class="w-full h-full">
+                            <p>"UniEventia transformó la forma en que participo en los eventos universitarios. Ahora siempre estoy al tanto de los eventos que me interesan. ¡Es genial!</p>
+                            <p class="mt-4 text-gray-500">- Antonio Salinas</p>
+                        </div>
+                    </div>
+                    <!-- Testimonio 2 -->
+                    <div class="w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/testimonials/cesar.png" alt="testimonial" class="w-full h-full">
+                            <p>"Organizar eventos se volvió mucho más sencillo con UniEventia. La comunidad es activa y siempre hay algo interesante en la agenda."</p>
+                            <p class="mt-4 text-gray-500">- Cesár Torres</p>
+                        </div>
+                    </div>
+                    <!-- Testimonio 3 -->
+                    <div class="w-96 px-4 ">
+                        <div class="p-6 bg-white rounded-xl shadow-lg border">
+                            <img src="../assets/testimonials/joseph.png" alt="testimonial" class="w-full h-full">
+                            <p>"El Plan Premium vale cada centavo. He podido acceder a eventos exclusivos y conocer personas increíbles. ¡Recomendado!"</p>
+                            <p class="mt-4 text-gray-500">- Joseph Ramirez</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formulario de Contacto -->
+        <section id="contact" class="py-8 lg:py-16">
+            <div class="container text-center flex flex-col w-full items-center gap-y-6">
+                <h2 class="text-xl text-gray-300 ">CONTÁCTANOS</h2>
+                <form action="#" method="post" class="w-full max-w-lg flex flex-col gap-y-4">
+                    <div class="flex flex-wrap ">
+                        <div class="w-full px-3">
+                            <input
+                                class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+                                type="text" placeholder="Nombre" name="name" required>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap  ">
+                        <div class="w-full px-3">
+                            <input
+                                class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+                                type="email" placeholder="Correo Electrónico" name="email" required>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap  ">
+                        <div class="w-full px-3">
+                            <textarea
+                                class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                placeholder="Mensaje" name="message" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-12 rounded-lg w-fit self-center">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Sección de Planes de Suscripción -->
+        <section id="pricing" class="py-8 lg:py-16 bg-gray-100">
+            <div class="container  text-center flex flex-col gap-y-6">
+                <h2 class="text-xl text-black ">PLANES DE SUSCRIPCIÓN</h2>
+                <div class="flex flex-wrap h-full justify-center px-8 gap-y-8">
+                    <!-- Plan 1 -->
+                    <div class="w-full md:w-96 px-4  ">
+                        <div
+                            class="p-6 bg-white rounded-xl shadow-lg border text-center flex flex-col h-full w-full items-center gap-y-4">
+                            <h3 class="text-xl font-semibold">Plan Estándar</h3>
+                            <p class="text-gray-500">$5/mes</p>
+                            <ul class="text-left self-start">
+                                <li>• Acceso a todos los eventos gratuitos.</li>
+                                <li>• Participación en foros de discusión.</li>
+                                <li>• Calendario personalizado de eventos.</li>
+                            </ul>
+                            <button
+                                class="bg-gray-500 text-white font-bold py-2 px-8 rounded-lg mt-auto w-fit">Actual</button>
+                        </div>
+                    </div>
+                    <!-- Plan 2 -->
+                    <div class="w-full md:w-96 px-4  ">
+                        <div
+                            class="p-6 bg-white rounded-xl shadow-lg border text-center flex flex-col h-full w-full items-center gap-y-4">
+                            <h3 class="text-xl font-semibold">Plan Básico</h3>
+                            <p class="text-gray-500">$5/mes</p>
+                            <ul class="text-left self-start">
+                                <li>• Todas las características del Plan Básico.</li>
+                                <li>• Notificaciones prioritarias para nuevos eventos.</li>
+                                <li>• Soporte prioritario.</li>
+                            </ul>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mt-auto w-fit">Suscribirse</button>
+                        </div>
+                    </div>
+                    <!-- Plan 3 -->
+                    <div class="w-full md:w-96 px-4  ">
+                        <div
+                            class="p-6 bg-white rounded-xl shadow-lg border text-center flex flex-col h-full w-full items-center gap-y-4">
+                            <h3 class="text-xl font-semibold">Plan Premium</h3>
+                            <p class="text-gray-500">$5/mes</p>
+                            <ul class="text-left self-start">
+                                <li>• Todas las características del Plan Estándar.</li>
+                                <li>• Acceso gratuito a todos los eventos pagados.</li>
+                                <li>• Acceso a eventos exclusivos.</li>
+                                <li>• Prioridad de consultas en foro</li>
+                            </ul>
+                            <button
+                                class="bg-yellow-400 hover:bg-yellow-300 text-white font-bold py-2 px-4 rounded-lg mt-auto w-fit">Suscribirse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-black text-white pt-4 lg:pt-8 pb-4 px-12">
+            <div class="container mx-auto">
+                <!-- Grid de 3 columnas para organizar el contenido -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Columna 1: Logo y descripción -->
+                    <div class="text-center md:text-left">
+                        <img src="../assets/logo.png" alt="logo" class="w-14 h-14 mx-auto md:mx-0 mb-4">
+                        <p class="text-gray-400">UniEventia te permite organizar y participar en eventos universitarios
+                            de manera sencilla.</p>
+                    </div>
+                    <!-- Columna 2: Enlaces importantes -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-4">Enlaces</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#benefits" class="text-gray-400 hover:text-white">Beneficios</a></li>
+                            <li><a href="#testimonials" class="text-gray-400 hover:text-white">Testimonios</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white">Contacto</a></li>
+                            <li><a href="#pricing" class="text-gray-400 hover:text-white">Planes de Suscripción</a></li>
+                        </ul>
+                    </div>
+                    <!-- Columna 3: Información de contacto -->
+                    <div class="text-center md:text-right">
+                        <h3 class="text-xl font-semibold mb-4">Contáctanos</h3>
+                        <p class="text-gray-400 mb-2">Email: info@unieventia.com</p>
+                        <p class="text-gray-400">Tel: +51 940 299 052</p>
+                        <!-- Redes sociales (opcional) -->
+                        <div class="flex justify-center md:justify-end mt-4 space-x-4">
+                            <a href="#" class="text-white">
+                                <img src="../assets/socials/facebook.svg" alt="Facebook" class="w-6 h-6">
+                            </a>
+                            <a href="#" class="text-white">
+                                <img src="../assets/socials/twitter.svg" alt="Twitter" class="w-6 h-6">
+                            </a>
+                            <a href="#" class="text-white">
+                                <img src="../assets/socials/instagram.svg" alt="Instagram" class="w-6 h-6">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Línea divisoria -->
+                <div class="border-t border-gray-700 mt-4"></div>
+                <!-- Créditos del sitio -->
+                <div class="text-center mt-4">
+                    <p class="text-gray-400">© 2023 UniEventia. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
