@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss build src/styles/styles.css -o dist/styles.css && tsc",
     "dev": "concurrently \"npx tailwindcss -i src/styles/styles.css -o dist/styles.css --watch\" \"tsc -w\" \"live-server --entry-file=src/index.html\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
