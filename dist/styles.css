@@ -1077,4 +1077,23 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
+
+  
+::-webkit-scrollbar {
+  width: 12px; 
+  height:10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555 ;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(59 130 246);
+  border-radius: 10px ; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(59 130 246); 
+}
 }
