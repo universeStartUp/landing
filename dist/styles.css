@@ -1005,22 +1005,3 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-
-::-webkit-scrollbar {
-  width: 12px; 
-  height:10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #555 ; 
-  border-radius: 10px ;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #2968E5;
-  border-radius: 10px ; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #2968E5 ; 
-}
